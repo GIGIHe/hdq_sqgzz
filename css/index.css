@@ -147,7 +147,7 @@ header.fixed {
     display: flex;
 }
 .part1 .ad .left{
-   width: 2.1rem;
+   width: 2rem;
    padding-top: .3rem;
    box-sizing:border-box;
 }
@@ -162,15 +162,15 @@ header.fixed {
     margin-bottom: .15rem;
 }
 .part1 .ad .left a.look_up{
-  display: block;
-  height: .27rem;
-  color: #fff;
-  font:400 .18rem/.27rem "microsoft yahei";
-  text-align: center;
-  background:url(../images/bt1.png) no-repeat center;
-  -webkit-background-size: 1.11rem;
-  background-size: 1.11rem;
-  border: none;
+    display: block;
+    width: 1.11rem;
+    height: .27rem;
+    margin: auto;
+    color: #fff;
+    font:400 .18rem/.27rem "microsoft yahei";
+    text-align: center;
+    border-radius: .12rem;
+    background: linear-gradient(to bottom,#939bfa,#4a58f3); /* 标准语法 */
 }
 /*table 表格样式start*/
 .table {
@@ -178,6 +178,7 @@ header.fixed {
   border-collapse: collapse;
   margin: 0 auto;
   text-align: center;
+  margin-top: .2rem;
 
 }
 .table tr td{
@@ -202,14 +203,15 @@ header.fixed {
   display: block;
   width: 1.11rem;
   height: .27rem;
-  background: url(../images/bt1.png) no-repeat center;
+ /* background: url(../images/bt1.png) no-repeat center;
   -webkit-background-size: 1.11rem;
-  background-size: 1.11rem;
+  background-size: 1.11rem;*/
   font:400 .18rem/.27rem "microsoft yahei";
   color:#fff;
   text-align: center;
   margin: 0 auto;
-  transition: 0.3s
+  border-radius: .12rem;
+  background: linear-gradient(to bottom,#939bfa,#4a58f3); /* 标准语法 */
 }
 .table tr td:last-child{
   border-right:none;
@@ -303,9 +305,11 @@ input{
     line-height:.3rem;
     text-align: center;
     cursor: pointer;
-    background:url(../images/bt2.png) no-repeat center;
+  /*  background:url(../images/bt2.png) no-repeat center;
     -webkit-background-size: 3.33rem;
-    background-size: 3.33rem;
+    background-size: 3.33rem;*/
+    border-radius: .12rem;
+    background: linear-gradient(to bottom,#939bfa,#4a58f3);
 }
 /*placeholder样式*/
 .form input::-webkit-input-placeholder { /* WebKit browsers */
@@ -425,9 +429,11 @@ select{
     display: block;
     font:400 .18rem/.27rem "microsoft yahei";
     color:#fff;
-    background: url(../images/bt3.png) no-repeat center;
+/*    background: url(../images/bt3.png) no-repeat center;
     -webkit-background-size: 1.11rem;
-    background-size: 1.11rem;
+    background-size: 1.11rem;*/
+     border-radius: .12rem;
+    background: linear-gradient(to bottom,#939bfa,#4a58f3);
 }
 /*part4*/
 .part4 {
@@ -442,7 +448,7 @@ select{
     background: url(../images/tit4.png) no-repeat center;
     -webkit-background-size: 4.71rem;
     background-size: 4.71rem;
-    margin-bottom: .7rem;
+    margin-bottom: .6rem;
 }
 .part4 .con{
 
@@ -464,7 +470,7 @@ select{
 .part4 .con .tab2{
     width: 7.4rem;
     margin: auto;
-    margin-bottom: .2rem;
+    margin-bottom: .16rem;
 }
 .tab2 td{
   border: 1px solid #140b70;
@@ -493,9 +499,11 @@ select{
   text-align: center;
   color: #fff;
   font:400 .18rem/.27rem "microsoft yahei";
-  background: url(../images/bt3.png) no-repeat center;
+  /*background: url(../images/bt3.png) no-repeat center;
   -webkit-background-size: 1.11rem;
-  background-size: 1.11rem;
+  background-size: 1.11rem;*/
+    border-radius: .12rem;
+    background: linear-gradient(to bottom,#939bfa,#4a58f3);
 }
 .part4 .part4_ul{
   width: 4.4rem;
@@ -533,9 +541,11 @@ select{
   text-align: center;
   color: #fff;
   font:400 .2rem/.3rem "microsoft yahei";
-  background: url(../images/bt4.png) no-repeat center;
+ /* background: url(../images/bt4.png) no-repeat center;
   -webkit-background-size: 1.27rem;
-  background-size: 1.27rem;
+  background-size: 1.27rem;*/
+   border-radius: .12rem;
+    background: linear-gradient(to bottom,#939bfa,#4a58f3);
 }
 /*part5*/
 .part5 {
@@ -575,7 +585,9 @@ select{
       text-align: center;
       color: #fff;
       font:400 .18rem/.28rem "microsoft yahei";
-      background: url(../images/bt5.png)  no-repeat center;
+      /*background: url(../images/bt5.png)  no-repeat center;
       -webkit-background-size: 2.08rem;
-      background-size: 2.08rem;
+      background-size: 2.08rem;*/
+      border-radius: .12rem;
+      background: linear-gradient(to bottom,#939bfa,#4a58f3);
 }
